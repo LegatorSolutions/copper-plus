@@ -36,38 +36,34 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Documentation',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Further Readings',
+              to: '#',
             },
           ],
         },
         {
           title: 'Community',
-          // items: [
-          //   {
-          //     label: 'Stack Overflow',
-          //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //   },
-          //   {
-          //     label: 'Discord',
-          //     href: 'https://discordapp.com/invite/docusaurus',
-          //   },
-          //   {
-          //     label: 'Twitter',
-          //     href: 'https://twitter.com/docusaurus',
-          //   },
-          // ],
+          items: [
+            {
+              label: 'Facebook',
+              href: '#',
+            },
+            {
+              label: 'Twitter',
+              href: '#',
+            },
+          ],
         },
         {
           title: 'More',
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              to: '#',
             },
             {
               label: 'GitHub',
@@ -78,6 +74,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Legator Solutions (Pvt) Ltd, Inc. Built with Docusaurus.`,
     },
+    
   },
   presets: [
     [
